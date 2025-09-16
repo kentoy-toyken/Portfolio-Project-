@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar">
+       <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+       </ul>
+
+       <button id="darkModeToggle">🌙</button>
+   </nav>
+
+   <script src="darkmode.js"></script>
+
+   <section id="home">
+     <div class="main">
+     <img src="main.jpg" alt="Main Photo" class="main-pic">
+        <h1 class="headings">Hi I'm <span class="highlight">Kent</span></h1>
+        <h3 class="tagline">Web Developer | Creative Thinker</h3>
+        <a href="#contact" class="btn">HIRE ME</a>
+      </div>
+   </section>
+
+   <section id="about">
+      <h1 class="headings">ABOUT ME</h1>
+      <div id="pic">
+        <img src="about.jpg" alt="">
+        <div id="intro">
+            <h2>Kent A. Mapano</h2>
+
+            <details>
+               <summary style="cursor: pointer; color: blue; text-decoration: underline;">Edit About Me</summary>
+               <p contenteditable="true" style="border: 1px solid #888; padding: 10 px; margin-top: 10px; background-color: #f5f5f5;">
+               Hi, I’m Kent a Web Developer and Designer with a passion for creating modern, responsive websites that put users first. What started as a simple curiosity about how websites work quickly turned into a real love for building digital experiences that are both beautiful and functional.
+
+I focus mainly on front-end development, working with HTML, CSS, and JavaScript to bring ideas to life. I enjoy the challenge of turning a concept into something interactive and engaging where every detail matters. For me, good design isn’t just about how things look, but how they work and feel for the people using them.
+
+I’m always exploring new tools, frameworks, and best practices to stay current in this fast-moving field. Whether its improving performance, learning more about UX, or diving into the latest tech, I love pushing myself to grow and improve.
+
+Collaboration is a big part of how I work. I enjoy being part of a team, bouncing around ideas, and building something meaningful together. At the heart of it, I just want to create websites that make a real impact experiences that are thoughtful, accessible, and built with purpose.
+            </p>
+         </details>
+       </div>
+      </div>
+   </section>
+
+   <section id="skills">
+      <h1 class="headings">Skills</h1>
+      <div class="row">
+         <div class="box">
+            <img src="skills.jpg" alt="">
+            <h1 class="headings">Responsive<br>Web Design</h1>
+            <p>I create modern, responsive websites that are both visually appealing and user-friendly. Whether it’s a landing page or a full business site, I design with performance and accessibility in mind.</p>
+         </div>
+         <div class="box">
+            <img src="skills.jpg" alt="">
+            <h1 class="headings">Frontend Development</h1>
+            <p>I develop interactive and high-performing user interfaces using HTML, CSS, JavaScript, and modern frameworks. My code is clean, optimized, and built for scalability across browsers and devices.</p>
+         </div>
+         <div class="box">
+            <img src="skills.jpg" alt="">
+            <h1 class="headings">Technical Writing</h1>
+            <p>I create clear, concise, and user-friendly documentation — from user guides and API docs to tutorials and product manuals. My writing bridges the gap between technical complexity and user understanding.</p>
+         </div>
+      </div>
+   </section>
+
+   <section id="contact">
+      <h1 class="headings">Contact</h1>
+      <form action="" class="form">
+         <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+         <input type="email" name="name" class="input" placeholder="Enter Your Email" required>
+         <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+         <input type="submit" value="SEND" id="send">
+
+         <div class="contact-info">
+         <p><strong>Email:</strong>kent.mapano@carsu.edu.ph</p>
+         <p><strong>Contact Number:</strong>09351714196</p>
+      </div>
+      </form>
+   </section>
+
+   <div class="divider"></div>
+
+   <footer class="footer">
+      <div class="footer-content">
+         <p>&copy; 2025 Kent A. Mapano. All rights reserved.</p>
+         <div class="socials">
+            <a href="#"><img src="github.png" alt="GitHub"></a>
+            <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+         </div>
+      </div>
+   </footer>
+</body>
+</html>
